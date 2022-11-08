@@ -7,7 +7,6 @@ public class J05_03 {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
 }
