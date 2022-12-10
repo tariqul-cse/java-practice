@@ -3,10 +3,10 @@ package chapter5;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class J05_03 {
-    public static void main(String args[]) {
+public class J05_01 {
+    public static void main(String arg []){
 
-        //Example of else if Statement
+        //Example of if Control
 
         int age = 0;
         String s;
@@ -22,25 +22,26 @@ public class J05_03 {
                 System.out.println("You have not borned yet!");
             }
 
-            else if (age>0 && age<=12){
+            if (age>0 && age<=12){
                 System.out.println("You are a child");
             }
 
-            else if (age>12 && age<=19){
+            if (age>12 && age<=19){
                 System.out.println("You are a teen ager.");
             }
 
-            else if (age>19 && age<=40){
+            if (age>19 && age<=40){
                 System.out.println("You are young.");
             }
 
-            else if (age>40 && age<=60){
+            if (age>40 && age<=60){
                 System.out.println("Wish your long life.");
             }
 
             else{
                 System.out.println("Old Man");
             }
+
         }catch (Exception E){
 
         }
